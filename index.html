@@ -1,0 +1,1288 @@
+<!DOCTYPE html>
+<html lang="en" style="font-size: 14px;">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="img/logo.png" type="img/logo">
+  <title>OkeyPost</title>
+
+  <!-- GLOBAL META -->
+
+  <meta name="image" content="./img/logo.png">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="OkeyPost">
+  <meta property="og:image" content="./img/logo.png">
+
+
+  <meta name="msapplication-TileImage" content="./img/logo.png">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta name="apple-mobile-web-app-title" content="OkeyPost">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <meta name="format-detection" content="telephone=no">
+  <meta name="format-detection" content="address=no">
+
+  <!-- GLOBAL META -->
+
+  <link rel="stylesheet" href="css/style.min.css">
+
+
+  <link rel="stylesheet" href="libs/slick/slick.css">
+  <link rel="stylesheet" href="libs/slick/slick-theme.css">
+
+</head>
+<body>
+  <header class="header" id="header">
+
+    <div class="header__popup row aic">
+
+      <div class="login__popup popup__login">
+
+        <div class="login__popup-close"></div>
+
+        <form id="login__popup" action="/" class="login__popup-form">
+          <h2 class="login__popup-name">
+            Виконайте вхід до вашого особистого кабінету
+          </h2>
+
+          <label for="login__popup-tel">
+            <b class="login__popup-sub">
+              Номер телефону:
+            </b>
+            <input class="login__popup-input" type="tel" name="login__popup-tel">
+          </label>
+
+
+          <label for="login__popup-email">
+            <b class="login__popup-sub">
+              Ваш email:
+            </b>
+            <input class="login__popup-input" type="email" name="login__popup-email">
+          </label>
+
+
+          <label for="login__popup-pass">
+            <b class="login__popup-sub">
+              Ваш пароль:
+            </b>
+            <input class="login__popup-input" type="password" name="login__popup-pass">
+          </label>
+
+
+          <p class="login__popup-info">
+            <a class="login__popup-link text-green reset__popup-link">
+              Відновлення паролю
+            </a>
+            або
+            <a class="login__popup-link text-green register__popup-link">
+              швидка реєстрація
+            </a>
+          </p>
+
+          <div class="login__popup-row row aic">
+            <div class="login__btn-wrapper row aic">
+              <button class="login__popup-btn" type="submit">Увійти</button>
+            </div>
+            <div class="row aic">
+              <a href="#" class="login__popup-icon-link">
+                <img src="img/google-icon.svg" alt="" class="login__popup-icon">
+              </a>
+              <a href="#" class="login__popup-icon-link">
+                <img src="img/facebook-icon.svg" alt="" class="login__popup-icon">
+              </a>
+              <a href="#" class="login__popup-icon-link">
+                <img src="img/vk-icon.svg" alt="" class="login__popup-icon">
+              </a>
+            </div>
+          </div>
+
+        </form>
+
+        <div class="login__popup-bg"></div>
+
+      </div>
+
+      <div class="login__popup register__popup">
+
+        <div class="login__popup-close"></div>
+
+        <form action="/" class="login__popup-form">
+          <h2 class="login__popup-name">
+            Почніть робити покупки в англійських магазинах
+          </h2>
+
+          <label for="login__popup-name">
+            <b class="login__popup-sub">
+              Імя:
+            </b>
+            <input class="login__popup-input" type="text" name="login__popup-name">
+          </label>
+
+
+          <label for="login__popup-surname">
+            <b class="login__popup-sub">
+              Прізвище:
+            </b>
+            <input class="login__popup-input" type="text" name="login__popup-surname">
+          </label>
+
+
+          <label for="login__popup-email">
+            <b class="login__popup-sub">
+              Email:
+            </b>
+            <input class="login__popup-input" type="email" name="login__popup-email">
+          </label>
+
+
+          <p class="login__popup-info">
+            Натискаючи на кнопку ви погоджуєтесь з
+            <a href="#" class="login__popup-link text-green">правилами надання послуг</a>
+            та
+            <a href="#" class="login__popup-link text-green">політикою конфіденційності</a>
+          </p>
+
+          <div class="login__popup-row row aic">
+            <div class="login__btn-wrapper row aic">
+              <button class="login__popup-btn" type="submit">Отримати адресу в UK</button>
+            </div>
+            <div class="row aic">
+              <p>
+                Уже зарегистрированы?
+                <a href="#" class="login__popup-link text-green register__login-link">
+                  Выполните вход
+                </a>
+              </p>
+            </div>
+          </div>
+
+        </form>
+
+        <div class="login__popup-bg"></div>
+
+      </div>
+
+      <div class="login__popup reset__popup">
+
+        <div class="login__popup-close"></div>
+
+        <form action="/" class="login__popup-form">
+          <h2 class="login__popup-name">
+            Відновлення паролю
+          </h2>
+          <p class="login__popup-sup">
+            Введіть Email, з яким ви зареєстровані на сайті, та натисніть
+            <span>«Відновити»</span>
+          </p>
+
+          <label for="login__popup-email">
+            <b class="login__popup-sub">
+              Ваш email:
+            </b>
+            <input class="login__popup-input" type="email" name="login__popup-email">
+          </label>
+
+
+          <p class="login__popup-info">
+            Згадали пароль?
+            <a href="#" class="login__popup-link text-green reset__login-link">Виконайте вхід</a>
+          </p>
+
+          <div class="login__popup-row row aic">
+            <div class="login__btn-wrapper row aic">
+              <button class="login__popup-btn code__popup-link" type="submit">Відновити</button>
+            </div>
+            <div class="row aic">
+
+            </div>
+          </div>
+
+        </form>
+
+        <div class="login__popup-bg"></div>
+
+      </div>
+
+      <div class="login__popup code__popup">
+
+        <div class="login__popup-close"></div>
+
+        <form action="/" class="login__popup-form">
+          <h2 class="login__popup-name">
+            Введіть код із СМС
+            для твердження
+          </h2>
+
+          <label for="login__popup-number">
+            <b class="login__popup-sub">
+              Код і СМС:
+            </b>
+            <input class="login__popup-input" type="number" name="login__popup-number">
+          </label>
+
+          <div class="login__popup-row row aic">
+            <div class="login__btn-wrapper row aic">
+              <button class="login__popup-btn" type="submit">Увійти</button>
+            </div>
+            <div class="row aic">
+
+            </div>
+          </div>
+
+        </form>
+
+        <div class="login__popup-bg"></div>
+
+      </div>
+
+    </div>
+
+    <div class="nav__bg" id="nav__bg">
+      <div class="wrapper">
+        <nav class="header__nav">
+          <a href="index.html" class="logo-link">
+              <img src="img/logo.svg" alt="" class="logo nav__logo">
+          </a>
+          <ul class="nav">
+            <li class="nav__item">
+              <a href="stage.html" class="nav__link">
+                Як купляти
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="sales.html" class="nav__link">
+                Розпродажі
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="prices.html" class="nav__link">
+                Ціни
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="questions.html" class="nav__link">
+                Допомога
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="bonus.html" class="nav__link">
+                Бонуси
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="blog.html" class="nav__link">
+                Блог
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="shops.html" class="nav__link">
+                Магазини
+              </a>
+            </li>
+          </ul>
+          <ul class="nav">
+            <li class="nav__item nav__item--login">
+              <a class="nav__link nav__link--login">
+                Вхід
+              </a>
+            </li>
+            <li class="nav__item nav__item--contact">
+              <a href="#" class="nav__link nav__link--contact">
+                Связатися с нами
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__burger">
+          <span></span>
+        </div>
+
+      </div>
+    </div>
+    <div class="header__container">
+      <div class="header__wrapper">
+        <div class="header__block">
+          <div class="header__content">
+            <h1 class="header__title">
+              Доставка товарів з Великобританії в Україну
+            </h1>
+            <p class="header__text">
+              Почніть економити до 80% на шопінгу. Регеструйтесь в OkeyPost, щоб купляти з знижками в UK одягу, взуття, гаджети знаменитих брендів і безпечно відпраляти речі в Україну.
+            </p>
+            <a href="#" class="header__btn">
+              Получити адрес в UK
+            </a>
+          </div>
+          <img class="header__img" src="img/bonus__banner-img.png" alt="">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="wrapper">
+      <div class="section__slider">
+        <h2 class="section__slider-title h2-title">
+          Наскільки вигідно купляти?
+        </h2>
+        <div class="slider__type">
+          <a href="#" class="slider__block-link">
+            <div class="slider__type-block">
+              <img src="img/slider__type-img1.svg" alt="" class="slider__block-img">
+              <p class="slider__block-name">
+                Одяг
+              </p>
+            </div>
+          </a>
+          <a href="#" class="slider__block-link">
+            <div class="slider__type-block">
+              <img src="img/slider__type-img2.svg" alt="" class="slider__block-img">
+              <p class="slider__block-name">
+                Електроніка
+              </p>
+            </div>
+          </a>
+          <a href="#" class="slider__block-link">
+            <div class="slider__type-block">
+              <img src="img/slider__type-img3.svg" alt="" class="slider__block-img">
+              <p class="slider__block-name">
+                Аксесуари
+              </p>
+            </div>
+          </a>
+          <a href="#" class="slider__block-link">
+            <div class="slider__type-block">
+              <img src="img/slider__type-img4.svg" alt="" class="slider__block-img">
+              <p class="slider__block-name">
+                Для дітей
+              </p>
+            </div>
+          </a>
+          <a href="#" class="slider__block-link">
+            <div class="slider__type-block">
+              <img src="img/slider__type-img5.svg" alt="" class="slider__block-img">
+              <p class="slider__block-name">
+                Для спорта
+              </p>
+            </div>
+          </a>
+          <a href="#" class="slider__block-link">
+            <div class="slider__type-block">
+              <img src="img/slider__type-img6.svg" alt="" class="slider__block-img">
+              <p class="slider__block-name">
+                Косметика
+              </p>
+            </div>
+          </a>
+          <a href="#" class="slider__block-link">
+            <div class="slider__type-block">
+              <img src="img/slider__type-img1.svg" alt="" class="slider__block-img">
+              <p class="slider__block-name">
+                Одяг
+              </p>
+            </div>
+          </a>
+          <a href="#" class="slider__block-link">
+            <div class="slider__type-block">
+              <img src="img/slider__type-img2.svg" alt="" class="slider__block-img">
+              <p class="slider__block-name">
+                Електроніка
+              </p>
+            </div>
+          </a>
+          <a href="#" class="slider__block-link">
+            <div class="slider__type-block">
+              <img src="img/slider__type-img3.svg" alt="" class="slider__block-img">
+              <p class="slider__block-name">
+                Аксесуари
+              </p>
+            </div>
+          </a>
+          <a href="#" class="slider__block-link">
+            <div class="slider__type-block">
+              <img src="img/slider__type-img4.svg" alt="" class="slider__block-img">
+              <p class="slider__block-name">
+                Для дітей
+              </p>
+            </div>
+          </a>
+          <a href="#" class="slider__block-link">
+            <div class="slider__type-block">
+              <img src="img/slider__type-img5.svg" alt="" class="slider__block-img">
+              <p class="slider__block-name">
+                Для спорта
+              </p>
+            </div>
+          </a>
+          <a href="#" class="slider__block-link">
+            <div class="slider__type-block">
+              <img src="img/slider__type-img6.svg" alt="" class="slider__block-img">
+              <p class="slider__block-name">
+                Косметика
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrapper">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+          <div class="ru-block">
+            <h2 class="swiper__name">
+              Columbia Barlow Pass 550 Turbodown Jacket
+            </h2>
+            <div class="swiper__block-price">
+              <img src="img/ua flag.jpg" alt="" class="swiper__flag">
+              <div class="swiper__block-text">
+                <p class="swiper__sub-price">
+                  Ціна в Україні
+                </p>
+                <p class="swiper__sup-price">
+                  7891,46₽
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper__img-block">
+            <span class="swiper__img"><img src="img/swiper__img.png" alt=""></span>
+            <p class="swiper__sub-img">
+              Срок доставки приблизно 10 днів
+            </p>
+            <p class="swiper__sup-img">
+              Ви економите до
+              <span>$119.56</span>
+            </p>
+          </div>
+          <div class="uk-block">
+            <h2 class="swiper__name">
+              Доставка одягу з Великобритании від
+              <span>£7.79</span>
+            </h2>
+            <div class="swiper__block-price">
+              <img src="img/uk flag.jpg" alt="" class="swiper__flag">
+              <div class="swiper__block-text">
+                <p class="swiper__sub-price">
+                  Ціна в UK
+                </p>
+                <p class="swiper__sup-price">
+                  <span>£80.62</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+          <div class="swiper-slide">
+            <div class="ru-block">
+              <h2 class="swiper__name">
+                Columbia Barlow Pass 550 Turbodown Jacket
+              </h2>
+              <div class="swiper__block-price">
+                <img src="img/ua flag.jpg" alt="" class="swiper__flag">
+                <div class="swiper__block-text">
+                  <p class="swiper__sub-price">
+                    Ціна в Україні
+                  </p>
+                  <p class="swiper__sup-price">
+                    7891,46₽
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper__img-block">
+              <span class="swiper__img"><img src="img/swiper__img.png" alt=""></span>
+              <p class="swiper__sub-img">
+                Срок доставки приблизно 10 днів
+              </p>
+              <p class="swiper__sup-img">
+                Ви економите до
+                <span>$119.56</span>
+              </p>
+            </div>
+            <div class="uk-block">
+              <h2 class="swiper__name">
+                Доставка одягу з Великобритании від
+                <span>£7.79</span>
+              </h2>
+              <div class="swiper__block-price">
+                <img src="img/uk flag.jpg" alt="" class="swiper__flag">
+                <div class="swiper__block-text">
+                  <p class="swiper__sub-price">
+                    Ціна в UK
+                  </p>
+                  <p class="swiper__sup-price">
+                    <span>£80.62</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="ru-block">
+              <h2 class="swiper__name">
+                Columbia Barlow Pass 550 Turbodown Jacket
+              </h2>
+              <div class="swiper__block-price">
+                <img src="img/ua flag.jpg" alt="" class="swiper__flag">
+                <div class="swiper__block-text">
+                  <p class="swiper__sub-price">
+                    Ціна в Україні
+                  </p>
+                  <p class="swiper__sup-price">
+                    7891,46₽
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper__img-block">
+              <span class="swiper__img"><img src="img/swiper__img.png" alt=""></span>
+              <p class="swiper__sub-img">
+                Срок доставки приблизно 10 днів
+              </p>
+              <p class="swiper__sup-img">
+                Ви економите до
+                <span>$119.56</span>
+              </p>
+            </div>
+            <div class="uk-block">
+              <h2 class="swiper__name">
+                Доставка одягу з Великобритании від
+                <span>£7.79</span>
+              </h2>
+              <div class="swiper__block-price">
+                <img src="img/uk flag.jpg" alt="" class="swiper__flag">
+                <div class="swiper__block-text">
+                  <p class="swiper__sub-price">
+                    Ціна в UK
+                  </p>
+                  <p class="swiper__sup-price">
+                    <span>£80.62</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper__btn-all">
+        <button class="swiper__left-btn swiper__btn" disabled>
+        <span class="swiper__btn-img"><img src="img/swiper__btn-img1.png" alt="" ></span>
+        <img src="img/swiper__left-btn.svg" alt="" class="swiper__left">
+      </button>
+        <button class="swiper__right-btn swiper__btn">
+        <img src="img/swiper__right-btn.svg" alt="" class="swiper__right">
+        <span class="swiper__btn-img"><img src="img/swiper__btn-img2.png" alt="" ></span>
+      </button>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section">
+    <div class="wrapper">
+      <div class="content row aic">
+        <div class="content__block content__block-01 row aic">
+          <img src="img/widget__block-icon1.svg" alt="" class="content__block-icon">
+          <p class="content__block-name content__name-01">
+            Економія до 70%
+          </p>
+        </div>
+        <div class="content__block content__block-02 row aic">
+          <img src="img/widget__block-icon2.svg" alt="" class="content__block-icon">
+          <p class="content__block-name content__name-02">
+            Тільки справжня продукція
+          </p>
+        </div>
+        <div class="content__block content__block-03 row aic">
+          <img src="img/widget__block-icon3.svg" alt="" class="content__block-icon">
+          <p class="content__block-name content__name-03">
+            Оперативна доставка
+          </p>
+        </div>
+        <div class="content__block content__block-04 row aic">
+          <img src="img/widget__block-icon1.svg" alt="" class="content__block-icon">
+          <p class="content__block-name content__name-04">
+            Великий вибір товарів
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+
+    <div class="home__banner row aic header__container">
+      <div class="wrapper">
+        <div class="banner__wrapper row aic">
+          <img src="img/bonus__banner-img.png" alt="" class="banner__img">
+          <div class="col">
+            <h2 class="banner__title">
+              Доручіть нашим майстрам шопінгу оформити замовлення в англійських магазинах та звільніть час для більш важливих справ.
+            </h2>
+            <p class="banner__text">
+              Такий спосіб придбання також підійде, якщо магазин приймає лише англійські картки.
+            </p>
+            <a href="#" class="banner__btn">Попробувати</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="section">
+    <div class="wrapper">
+      <div class="select__menu">
+        <h2 class="select__title h2-title">
+          OkeyPost зручна і швидка доставка посилок з Великобритании
+        </h2>
+        <p class="select__text header__text">
+          Розрахуйте вартість доставки з Англії до вас додому. Ми отримаємо ваші посилки на складі, при необхідності об'єднаємо кілька доставок в одну та відправимо їх до вас надійно запакованими.
+        </p>
+        <div class="select__container col">
+          <div class="select__row row aic">
+
+            <div class="col select__box">
+              <p class="sub__title-select">
+                Країна:
+              </p>
+              <div class="select__icon">
+
+                <select name="select__country" class="select__country">
+                  <option value="ru">Україна</option>
+                  <option value="ua">США</option>
+                  <option value="uk">United Kingdom</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="col select__box">
+              <p class="sub__title-select">
+                Місто:
+              </p>
+              <input type="text" placeholder="Київ" name="seclect__city" class="select__country select__city">
+            </div>
+
+            <div class="col select__box">
+              <p class="sub__title-select">
+                Індекс:
+              </p>
+              <input type="number" placeholder="Введіть індекс" name="seclect__index" class="select__country select__index">
+            </div>
+
+            <div class="col select__box">
+              <p class="sub__title-select">
+                Вага посилки:
+              </p>
+              <div class="select__icon">
+
+                <select name="select__massa" class="select__country select__massa">
+                  <option value="0.5">0,5</option>
+                  <option value="2">2</option>
+                  <option value="3,5">3,5</option>
+                </select>
+
+              </div>
+            </div>
+
+            <div class="col select__box">
+              <p class="sub__title-select">
+                Додаткові послуги:
+              </p>
+              <div class="select__icon">
+
+                <select name="select__services" id="select__country" class="select__country select__services">
+                  <option value="none" disabled selected>Виберіть послуги</option>
+                  <option value="web-design">Веб-Дизайн</option>
+                  <option value="verst">Верстка</option>
+                  <option value="program">Програмування</option>
+                </select>
+
+              </div>
+
+            </div>
+
+          </div>
+          <a href="#" class="select__btn">
+            Розрахувати
+          </a>
+        </div>
+      </div>
+      <div class="delivery">
+        <h2 class="delivery-title h2-title">
+          Варіанти доставки:
+        </h2>
+        <div class="delivery__blocks">
+
+          <div class="delivery__container col">
+            <div class="delivery__header row aic">
+              <div class="row aic">
+                <img src="img/widget__block-icon1.svg" alt="" class="delivery__content-icon">
+                <h3 class="delivery__name">
+                  Почта України
+                </h3>
+              </div>
+              <div class="row aic">
+                <div class="delivery__col col">
+                  <p class="delivery__sup">
+                    Терміни:
+                  </p>
+                  <p class="delivery__sub">
+                    10-14 днів
+                  </p>
+                </div>
+                <div class="delivery__col col">
+                  <p class="delivery__sup">
+                    Вартість доставки:
+                  </p>
+                  <p class="delivery__sub">
+                    от £27.00
+                    <span><img class="delivery__info-icon" src="img/delivery__info-icon.svg" alt=""></span>
+                  </p>
+                </div>
+                <div class="delivery__col col">
+                  <p class="delivery__sup">
+                    Загалом:
+                  </p>
+                  <p class="delivery__sub">
+                    £41.99
+                  </p>
+                </div>
+                <div class="delivery__content-btn">
+                  <img class="delivery__icon-btn" src="img/delivery__content-btn.svg" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="delivery__dropdown">
+
+            </div>
+          </div>
+
+          <div class="delivery__container col">
+            <div class="delivery__header row aic">
+              <div class="row aic">
+                <img src="img/widget__block-icon2.svg" alt="" class="delivery__content-icon">
+                <h3 class="delivery__name">
+                  EMS ПОШТА УКРАЇНА
+                </h3>
+              </div>
+              <div class="row aic">
+                <div class="delivery__col col">
+                  <p class="delivery__sup">
+                    Терміни:
+                  </p>
+                  <p class="delivery__sub">
+                    9-12 днів
+                  </p>
+                </div>
+                <div class="delivery__col col">
+                  <p class="delivery__sup">
+                    Вартість доставки:
+                  </p>
+                  <p class="delivery__sub">
+                    від £40.00
+                    <span><img class="delivery__info-icon" src="img/delivery__info-icon.svg" alt=""></span>
+                  </p>
+                </div>
+                <div class="delivery__col col">
+                  <p class="delivery__sup">
+                    Загалом:
+                  </p>
+                  <p class="delivery__sub">
+                    £54.55
+                  </p>
+                </div>
+                <div class="delivery__content-btn">
+                  <img class="delivery__icon-btn" src="img/delivery__content-btn.svg" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="delivery__dropdown">
+
+            </div>
+          </div>
+
+          <div class="delivery__container col">
+            <div class="delivery__header row aic">
+              <div class="row aic">
+                <img src="img/widget__block-icon3.svg" alt="" class="delivery__content-icon">
+                <h3 class="delivery__name">
+                  ПОШТА УКРАЇНИ ДРІБНІ ПАКЕТИ
+                </h3>
+              </div>
+              <div class="row aic">
+                <div class="delivery__col col">
+                  <p class="delivery__sup">
+                    Терміни:
+                  </p>
+                  <p class="delivery__sub">
+                    10-14 днів
+                  </p>
+                </div>
+                <div class="delivery__col col">
+                  <p class="delivery__sup">
+                    Вартість доставки:
+                  </p>
+                  <p class="delivery__sub">
+                    від £13.00
+                    <span><img class="delivery__info-icon" src="img/delivery__info-icon.svg" alt=""></span>
+                  </p>
+                </div>
+                <div class="delivery__col col">
+                  <p class="delivery__sup">
+                    Загалом:
+                  </p>
+                  <p class="delivery__sub">
+                    £90.50
+                  </p>
+                </div>
+                <div class="delivery__content-btn">
+                  <img class="delivery__icon-btn" src="img/delivery__content-btn.svg" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="delivery__dropdown">
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrapper">
+      <div class="buybanner">
+
+        <h2 class="buybanner__title h2-title">
+          4 простых шага для ваших покупок в Великобритании
+        </h2>
+        <div class="buybanner__container row aic">
+
+          <div class="buybanner__container-banner">
+
+              <img src="img/buybanner__illustrator1.png" alt="" class="buybanner__illustrator-img">
+              <h3 class="buybanner__name">
+                ви ВИБИРАЄТЕ ТОВАР
+              </h3>
+              <p class="buybanner__text">
+                в англійському магазині, оплачуєте та вказуєте
+                <span><a href="#" class="buybanner__text-link">
+                  адрес склада
+                </a></span>
+                OkeyPost
+              </p>
+
+          </div>
+
+          <div class="buybanner__container-banner">
+
+              <img src="img/buybanner__illustrator2.png" alt="" class="buybanner__illustrator-img">
+              <h3 class="buybanner__name">
+                ПОКУПКИ ПРИХОДЯТЬ НА СКЛАД
+              </h3>
+              <p class="buybanner__text">
+                та з'являються у вашому особистому кабінеті на нашому сайті
+              </p>
+
+          </div>
+
+          <div class="buybanner__container-banner">
+
+              <img src="img/buybanner__illustrator3.png" alt="" class="buybanner__illustrator-img">
+              <h3 class="buybanner__name">
+                ВІДПРАВЛЯЄМО ЇХ ВАМ ДОДОМУ
+              </h3>
+              <p class="buybanner__text">
+                у надійній упаковці, за вигідною ціною та дуже швидко
+              </p>
+
+          </div>
+
+          <div class="buybanner__container-banner">
+
+              <img src="img/buybanner__illustrator4.png" alt="" class="buybanner__illustrator-img">
+              <h3 class="buybanner__name">
+                ЗАБИРАЙТЕ свою ПОСИЛКУ
+              </h3>
+              <p class="buybanner__text">
+                у пункті видачі, на пошті або з кур'єром
+              </p>
+
+          </div>
+
+        </div>
+        <p class="buybanner__info buybanner__text">
+          Не бажаєте розбиратися самостійно, наші майстри шопінгу з радістю куплять усі товари за вас.
+        </p>
+        <a href="#" class="buybanner__btn">
+          Швидка покупка
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="home__banner row aic header__container">
+      <div class="wrapper">
+        <div class="banner__wrapper row aic">
+          <img src="img/bonus__banner-img.png" alt="" class="banner__img">
+          <div class="col">
+            <h2 class="banner__title banner__title2">
+              Віртуальний тур по нашому складу у реальному часі
+            </h2>
+            <p class="banner__text">
+              Ви можете завжди подивитися на нашу злагоджену роботу на складі
+            </p>
+            <a href="#" class="banner__btn">Попробувати</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrapper">
+      <div class="widget">
+        <h2 class="widget__title h2-title">
+          120 000 задоволених клієнтів у Росії вже зробили свій вибір
+        </h2>
+        <p class="widget__text select__text header__text">
+          За останній рік десятки тисяч наших клієнтів замовили товари з Англії та залишили 19 633 відгуків.
+        </p>
+        <div class="widget__blocks row aic">
+
+          <a href="#">
+            <div class="widget__block col">
+              <img src="img/widget__block-icon1.svg" alt="" class="widget__block-icon">
+              <p class="widget__block-title">
+                Більше не означає дорожче
+              </p>
+              <p class="widget__block-text">
+                Із зростанням ваги посилки ціна за кожні 0.5 кг зменшується у прогресії.
+              </p>
+            </div>
+          </a>
+
+          <a href="#">
+            <div class="widget__block col">
+              <img src="img/widget__block-icon2.svg" alt="" class="widget__block-icon">
+              <p class="widget__block-title">
+                Швидка обработка посилок
+              </p>
+              <p class="widget__block-text">
+                Посилання обробляється не довше 48 годин після надходження складу.
+              </p>
+            </div>
+          </a>
+
+          <a href="#">
+            <div class="widget__block col">
+              <img src="img/widget__block-icon3.svg" alt="" class="widget__block-icon">
+              <p class="widget__block-title">
+                SMS-повідомлення
+              </p>
+              <p class="widget__block-text">
+                Відстежуйте весь процес за допомогою SMS-повідомлень.
+              </p>
+            </div>
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrapper">
+      <div class="reviews">
+        <h2 class="reviews__title h2-title">
+          Відгуки та цитати блогерів:
+        </h2>
+        <div class="reviews__blocks row ">
+
+          <a href="#">
+            <div class="reviews__block row aic">
+              <img src="img/reviews__block-img1.jpg" alt="" class="reviews__block-img">
+              <div class="reviews__col col">
+                <h3 class="reviews__name">
+                  NIKOLAY S
+                </h3>
+                <div class="content-star" data-total-value="5">
+                  <div class="star" data-item-value="5"></div>
+                  <div class="star" data-item-value="4"></div>
+                  <div class="star" data-item-value="3"></div>
+                  <div class="star" data-item-value="2"></div>
+                  <div class="star" data-item-value="1"></div>
+                </div>
+                <p class="reviews__info">
+                  Ваша доставка найшвидша та найдешевша!!!
+                </p>
+                <div class="row">
+                  <p class="data__city">
+                    Дата:
+                    <br>
+                    Місто:
+                  </p>
+                  <div class="data__city-text">
+                    16 Листопада 2021
+                    <br>
+                    Львів
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="#">
+            <div class="reviews__block row aic">
+              <img src="img/reviews__block-img2.jpg" alt="" class="reviews__block-img">
+              <div class="reviews__col col">
+                <h3 class="reviews__name">
+                  DMITRIY D
+                </h3>
+                <div class="content-star" data-total-value="5">
+                  <div class="star" data-item-value="5"></div>
+                  <div class="star" data-item-value="4"></div>
+                  <div class="star" data-item-value="3"></div>
+                  <div class="star" data-item-value="2"></div>
+                  <div class="star" data-item-value="1"></div>
+                </div>
+                <p class="reviews__info">
+                  Пуховик Levi's з eBay. Все приїхало швидко та цілим
+                </p>
+                <div class="row">
+                  <p class="data__city">
+                    Дата:
+                    <br>
+                    Місто:
+                  </p>
+                  <div class="data__city-text">
+                    16 Листопада 2021
+                    <br>
+                    Івано-Франківськ
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="#">
+            <div class="reviews__block row aic">
+              <img src="img/reviews__block-img3.jpg" alt="" class="reviews__block-img">
+              <div class="reviews__col col">
+                <h3 class="reviews__name">
+                  VLADIMIR E
+                </h3>
+                <div class="content-star" data-total-value="5">
+                  <div class="star" data-item-value="5"></div>
+                  <div class="star" data-item-value="4"></div>
+                  <div class="star" data-item-value="3"></div>
+                  <div class="star" data-item-value="2"></div>
+                  <div class="star" data-item-value="1"></div>
+                </div>
+                <p class="reviews__info">
+                  Вогонь, як завжди! Окреме спасибі за доп.упаковку, годинник від Apple прийшов у простому паперовому пакеті.
+                </p>
+                <div class="row">
+                  <p class="data__city">
+                    Дата:
+                    <br>
+                    Місто:
+                  </p>
+                  <div class="data__city-text">
+                    16 Ноября 2021
+                    <br>
+                    Львів
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="#">
+            <div class="reviews__block row aic">
+              <img src="img/reviews__block-img4.jpg" alt="" class="reviews__block-img">
+              <div class="reviews__col col">
+                <h3 class="reviews__name">
+                  Оксана
+                </h3>
+                <div class="content-star" data-total-value="5">
+                  <div class="star" data-item-value="5"></div>
+                  <div class="star" data-item-value="4"></div>
+                  <div class="star" data-item-value="3"></div>
+                  <div class="star" data-item-value="2"></div>
+                  <div class="star" data-item-value="1"></div>
+                </div>
+                <p class="reviews__info">
+                  Дуже швидко, надійно! Як завжди дякую за роботу!
+                </p>
+                <div class="row">
+                  <p class="data__city">
+                    Дата:
+                    <br>
+                    Город:
+                  </p>
+                  <div class="data__city-text">
+                    16 Ноября 2021
+                    <br>
+                    Odintsovo
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+
+        </div>
+        <a href="#" class="reviews__btn">
+          Всі відгуки
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrapper">
+      <div class="info-end">
+        <h2 class="info-end__title h2-title">
+          Ваша особиста адреса у Великобританії для покупок
+        </h2>
+        <p class="info-end__text">
+          З нами ви отримуєте цілих дві адреси у UK! У нас є два склади для прийому посилок – у Лондоні та Манчестері. Вказуйте у магазині той із них, відправка на який обійдеться дешевше (або покупка буде без податків). Найчастіше в Лондоні наші клієнти замовляють одяг та взуття, а в Манчестер йдуть гаджети та все інше. З OkeyPost ви завжди отримуєте максимальну вигоду!
+          <br>
+          <br>
+          При доставці з України до України всі ваші товари обов'язково страхуються. Прийом посилок на наш склад, їх обробка, видалення зайвих коробок, зберігання до 70 днів – у нас повністю безкоштовно. Ми також безкоштовно проводимо об'єднання посилок із різних магазинів в одну. Це необхідно для зниження вартості доставки посилок із UK в Україну.
+          <br>
+          <br>
+          У нас самая выгодная доставка! От $11.99 за посылку! А если у вас есть какие-то особенные требования, вроде проверки техники или дополнительной пленки для самых хрупких товаров, – операторы нашего склада с радостью выполнят их по спецзапросу.
+          <br>
+          <br>
+          Okeypost.com – це надійно, швидко та вигідно. А в наших соцмережах ви завжди знайдете інформацію про кращі знижки магазинів. Не обов'язково заходити у Чорну п'ятницю або Prime Day, круті акції відбуваються щодня!
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="end__banner row aic header__container">
+      <div class="wrapper">
+        <div class="banner__wrapper row aic banner__end">
+          <h2 class="end__banner-title">
+            Підпишіть і будьте в курсі всіх знижок та акцій магазинів Великобританії!
+          </h2>
+          <input class="banner__input-input" type="email" placeholder="Введіть ваш email">
+          <input href="#" type="button" class="banner__btn" value="Підписатись" name="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="wrapper">
+      <div class="footer__container row">
+
+        <div class="footer__block col">
+          <a href="#" class="logo-link">
+            <img src="img/logo.svg" alt="" class="logo nav__logo">
+          </a>
+          <div class="footer__icon row aic">
+            <a href="#" class="footer__link"><img src="img/whatsapp-icon.svg" alt=""></a>
+            <a href="#" class="footer__link"><img src="img/viber-icon.svg" alt="" ></a>
+            <a href="#" class="footer__link"><img src="img/message-icon.svg" alt=""></a>
+          </div>
+        </div>
+
+        <div class="footer__block col">
+          <h4 class="footer__title">Про компанію</h4>
+          <a href="#" class="footer__text">
+            <p>Послуги</p>
+          </a>
+          <a href="#" class="footer__text">
+            <p>Ціни</p>
+          </a>
+          <a href="#" class="footer__text">
+            <p>Відгуки</p>
+          </a>
+          <a href="#" class="footer__text">
+            <p>Контакти</p>
+          </a>
+          <a href="#" class="footer__text">
+            <p>Ваканції</p>
+          </a>
+          <a href="#" class="footer__text">
+            <p>Угода про персональні дані</p>
+          </a>
+          <a href="#" class="footer__text">
+            <p>Послуги</p>
+          </a>
+        </div>
+
+        <div class="footer__block col">
+          <h4 class="footer__title">Корисне</h4>
+          <a href="#" class="footer__text">
+            <p>Як працює наш сервіс</p>
+          </a>
+          <a href="#" class="footer__text">
+            <p>Як купувати з оператором</p>
+          </a>
+          <a href="#" class="footer__text">
+            <p>Відповіді на часті запитання</p>
+          </a>
+          <a href="#" class="footer__text">
+            <p>Популярні магазини</p>
+          </a>
+          <a href="#" class="footer__text">
+            <p>Чорний список магазинів</p>
+          </a>
+          <a href="#" class="footer__text">
+            <p>Актуальні розпродажі</p>
+          </a>
+        </div>
+
+        <div class="footer__block col">
+          <h4 class="footer__title">Спецпроекти</h4>
+          <a href="#" class="footer__text">
+            <p>50% на першу доставку</p>
+          </a>
+          <a href="#" class="footer__text">
+            <p>Знижки для постійних клієнтів</p>
+          </a>
+          <a href="#" class="footer__text">
+            <p>Реферальна програма</p>
+          </a>
+          <a href="#" class="footer__text">
+            <p>Кешбек Mr. Rebates та Rakuten</p>
+          </a>
+          <a href="#" class="footer__text">
+            <p>Stop Fraud</p>
+          </a>
+        </div>
+
+      </div>
+      <p class="footer__info footer__text">
+        © 2021 Okeypost . Всі права захищені.
+      </p>
+    </div>
+  </footer>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/libs.min.js"></script>
+
+  <script src="js/app.js"></script>
+
+  <script src="libs/slick/slick.min.js"></script>
+</body>
+
+</html>

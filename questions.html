@@ -1,0 +1,1028 @@
+<!DOCTYPE html>
+<html lang="en" style="font-size: 14px;">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="img/logo.png" type="img/logo">
+  <title>OkeyPost</title>
+
+  <!-- GLOBAL META -->
+
+  <meta name="image" content="./img/logo.png">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="OkeyPost">
+  <meta property="og:image" content="./img/logo.png">
+
+
+  <meta name="msapplication-TileImage" content="./img/logo.png">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta name="apple-mobile-web-app-title" content="OkeyPost">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <meta name="format-detection" content="telephone=no">
+  <meta name="format-detection" content="address=no">
+
+  <!-- GLOBAL META -->
+
+  <link rel="stylesheet" href="css/style.min.css">
+
+  <link rel="stylesheet" href="libs/slick/slick.css">
+  <link rel="stylesheet" href="libs/slick/slick-theme.css">
+
+</head>
+<body>
+  <header class="header" id="header">
+    <div class="header__popup row aic">
+
+      <div class="login__popup popup__login">
+
+        <div class="login__popup-close"></div>
+
+        <form id="login__popup" action="/" class="login__popup-form">
+          <h2 class="login__popup-name">
+            Виконайте вхід до вашого особистого кабінету
+          </h2>
+
+          <label for="login__popup-tel">
+            <b class="login__popup-sub">
+              Номер телефону:
+            </b>
+            <input class="login__popup-input" type="tel" name="login__popup-tel">
+          </label>
+
+
+          <label for="login__popup-email">
+            <b class="login__popup-sub">
+              Ваш email:
+            </b>
+            <input class="login__popup-input" type="email" name="login__popup-email">
+          </label>
+
+
+          <label for="login__popup-pass">
+            <b class="login__popup-sub">
+              Ваш пароль:
+            </b>
+            <input class="login__popup-input" type="password" name="login__popup-pass">
+          </label>
+
+
+          <p class="login__popup-info">
+            <a class="login__popup-link text-green reset__popup-link">
+              Відновлення паролю
+            </a>
+            або
+            <a class="login__popup-link text-green register__popup-link">
+              швидка реєстрація
+            </a>
+          </p>
+
+          <div class="login__popup-row row aic">
+            <div class="login__btn-wrapper row aic">
+              <button class="login__popup-btn" type="submit">Увійти</button>
+            </div>
+            <div class="row aic">
+              <a href="#" class="login__popup-icon-link">
+                <img src="img/google-icon.svg" alt="" class="login__popup-icon">
+              </a>
+              <a href="#" class="login__popup-icon-link">
+                <img src="img/facebook-icon.svg" alt="" class="login__popup-icon">
+              </a>
+              <a href="#" class="login__popup-icon-link">
+                <img src="img/vk-icon.svg" alt="" class="login__popup-icon">
+              </a>
+            </div>
+          </div>
+
+        </form>
+
+        <div class="login__popup-bg"></div>
+
+      </div>
+
+      <div class="login__popup register__popup">
+
+        <div class="login__popup-close"></div>
+
+        <form action="/" class="login__popup-form">
+          <h2 class="login__popup-name">
+            Почніть робити покупки в англійських магазинах
+          </h2>
+
+          <label for="login__popup-name">
+            <b class="login__popup-sub">
+              Імя:
+            </b>
+            <input class="login__popup-input" type="text" name="login__popup-name">
+          </label>
+
+
+          <label for="login__popup-surname">
+            <b class="login__popup-sub">
+              Прізвище:
+            </b>
+            <input class="login__popup-input" type="text" name="login__popup-surname">
+          </label>
+
+
+          <label for="login__popup-email">
+            <b class="login__popup-sub">
+              Email:
+            </b>
+            <input class="login__popup-input" type="email" name="login__popup-email">
+          </label>
+
+
+          <p class="login__popup-info">
+            Натискаючи на кнопку ви погоджуєтесь з
+            <a href="#" class="login__popup-link text-green">правилами надання послуг</a>
+            та
+            <a href="#" class="login__popup-link text-green">політикою конфіденційності</a>
+          </p>
+
+          <div class="login__popup-row row aic">
+            <div class="login__btn-wrapper row aic">
+              <button class="login__popup-btn" type="submit">Отримати адресу в UK</button>
+            </div>
+            <div class="row aic">
+              <p>
+                Уже зарегистрированы?
+                <a href="#" class="login__popup-link text-green register__login-link">
+                  Выполните вход
+                </a>
+              </p>
+            </div>
+          </div>
+
+        </form>
+
+        <div class="login__popup-bg"></div>
+
+      </div>
+
+      <div class="login__popup reset__popup">
+
+        <div class="login__popup-close"></div>
+
+        <form action="/" class="login__popup-form">
+          <h2 class="login__popup-name">
+            Відновлення паролю
+          </h2>
+          <p class="login__popup-sup">
+            Введіть Email, з яким ви зареєстровані на сайті, та натисніть
+            <span>«Відновити»</span>
+          </p>
+
+          <label for="login__popup-email">
+            <b class="login__popup-sub">
+              Ваш email:
+            </b>
+            <input class="login__popup-input" type="email" name="login__popup-email">
+          </label>
+
+
+          <p class="login__popup-info">
+            Згадали пароль?
+            <a href="#" class="login__popup-link text-green reset__login-link">Виконайте вхід</a>
+          </p>
+
+          <div class="login__popup-row row aic">
+            <div class="login__btn-wrapper row aic">
+              <button class="login__popup-btn code__popup-link" type="submit">Відновити</button>
+            </div>
+            <div class="row aic">
+
+            </div>
+          </div>
+
+        </form>
+
+        <div class="login__popup-bg"></div>
+
+      </div>
+
+      <div class="login__popup code__popup">
+
+        <div class="login__popup-close"></div>
+
+        <form action="/" class="login__popup-form">
+          <h2 class="login__popup-name">
+            Введіть код із СМС
+            для твердження
+          </h2>
+
+          <label for="login__popup-number">
+            <b class="login__popup-sub">
+              Код і СМС:
+            </b>
+            <input class="login__popup-input" type="number" name="login__popup-number">
+          </label>
+
+          <div class="login__popup-row row aic">
+            <div class="login__btn-wrapper row aic">
+              <button class="login__popup-btn" type="submit">Увійти</button>
+            </div>
+            <div class="row aic">
+
+            </div>
+          </div>
+
+        </form>
+
+        <div class="login__popup-bg"></div>
+
+      </div>
+
+    </div>
+    <div class="nav__bg" id="nav__bg">
+      <div class="wrapper">
+        <nav class="header__nav">
+          <a href="index.html" class="logo-link">
+            <img src="img/logo.svg" alt="" class="logo nav__logo">
+          </a>
+          <ul class="nav">
+            <li class="nav__item">
+              <a href="stage.html" class="nav__link">
+                Як купляти
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="sales.html" class="nav__link">
+                Розпродажі
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="prices.html" class="nav__link">
+                Ціни
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="questions.html" class="nav__link">
+                Допомога
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="bonus.html" class="nav__link">
+                Бонуси
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="blog.html" class="nav__link">
+                Блог
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="shops.html" class="nav__link">
+                Магазини
+              </a>
+            </li>
+          </ul>
+          <ul class="nav">
+            <li class="nav__item nav__item--login">
+              <a href="#" class="nav__link nav__link--login">
+                Вхід
+              </a>
+            </li>
+            <li class="nav__item nav__item--contact">
+              <a href="#" class="nav__link nav__link--contact">
+                Связатися с нами
+              </a>
+            </li>
+          </ul>
+
+        </nav>
+        <div class="header__burger">
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <div class="prices__banner stage__banner row aic header__container">
+      <div class="wrapper">
+        <div class="stage-banner__wrapper row aic">
+          <div class="col">
+            <nav class="nav__sections">
+            <ul class="ul__sections row aic">
+              <li class="sections__item">
+                <a href="#" class="sections__link">
+                  Головна
+                </a>
+              </li>
+              <li class="sections__item">
+                <a href="#" class="sections__link">
+                  Часто задавані питання
+                </a>
+              </li>
+            </ul>
+          </nav>
+            <h1 class="h2-title stage__banner-title">
+              Відповідаємо на запитання доставки
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="wrapper">
+      <div class="quest__search">
+        <p class="quest__search-sub">
+          Пошук у питаннях та відповідях:
+        </p>
+        <aside class="quest__aside">
+          <form action="/" class="quest__form aic row">
+            <input type="search" name="quest__input" class="quest__input" placeholder="Введіть своє питання...">
+            <input class="quest__input-btn" type="submit" value=".">
+          </form>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+
+    <div class="wrapper quest__contaner-wrapper">
+      <h2 class="quest__title h2-title">
+        Віртуальна адреса у Великій Британії
+      </h2>
+
+      <div class="quest__container col">
+        <div class="quest__header row aic">
+         <h3 class="prices__mini-name">
+           Що робити, якщо Ви забули внести трек номер на сайт, а замовлення вже надійшло?
+         </h3>
+          <div class="quest__header-arrow">
+            <img src="img/quest__header-arrow.svg" alt="">
+          </div>
+        </div>
+        <div class="quest__dropdown">
+
+        </div>
+      </div>
+
+      <div class="quest__container col">
+        <div class="quest__header row aic">
+          <h3 class="prices__mini-name">
+            Як я дізнаюся, що замовлення прийшло на склад?
+          </h3>
+          <div class="quest__header-arrow">
+            <img src="img/quest__header-arrow.svg" alt="">
+          </div>
+        </div>
+        <div class="quest__dropdown">
+
+        </div>
+      </div>
+
+      <div class="quest__container col">
+        <div class="quest__header row aic">
+          <h3 class="prices__mini-name">
+            Покупки на Eбeй / Ebay
+          </h3>
+          <div class="quest__header-arrow">
+            <img src="img/quest__header-arrow.svg" alt="">
+          </div>
+        </div>
+        <div class="quest__dropdown">
+
+        </div>
+      </div>
+
+      <div class="quest__container col">
+        <div class="quest__header row aic">
+          <h3 class="prices__mini-name">
+            Що робити після того, як я викупив замовлення самостійно на вашу адресу?
+          </h3>
+          <div class="quest__header-arrow">
+            <img src="img/quest__header-arrow.svg" alt="">
+          </div>
+        </div>
+        <div class="quest__dropdown">
+
+        </div>
+      </div>
+
+      <div class="quest__container col">
+        <div class="quest__header row aic">
+          <h3 class="prices__mini-name">
+            Як купити на віртуальну адресу?
+          </h3>
+          <div class="quest__header-arrow">
+            <img src="img/quest__header-arrow.svg" alt="">
+          </div>
+        </div>
+        <div class="quest__dropdown">
+
+        </div>
+      </div>
+
+      <div class="quest__container col">
+        <div class="quest__header row aic">
+          <h3 class="prices__mini-name">
+            Скільки коштує віртуальна адреса?
+          </h3>
+          <div class="quest__header-arrow">
+            <img src="img/quest__header-arrow.svg" alt="">
+          </div>
+        </div>
+        <div class="quest__dropdown">
+
+        </div>
+      </div>
+
+      <div class="quest__container col">
+        <div class="quest__header row aic">
+          <h3 class="prices__mini-name">
+            Як купити на віртуальну адресу?
+          </h3>
+          <div class="quest__header-arrow">
+            <img src="img/quest__header-arrow.svg" alt="">
+          </div>
+        </div>
+        <div class="quest__dropdown">
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="wrapper quest__contaner-wrapper">
+      <h2 class="quest__title h2-title">
+        Покупки в магазинах Англії, знижки та промкоду
+      </h2>
+
+      <div class="quest__container col">
+        <div class="quest__header row aic">
+          <h3 class="prices__mini-name">
+            Анонс знижкових купонів та промкодів
+          </h3>
+          <div class="quest__header-arrow">
+            <img src="img/quest__header-arrow.svg" alt="">
+          </div>
+        </div>
+        <div class="quest__dropdown">
+
+        </div>
+      </div>
+
+      <div class="quest__container col">
+        <div class="quest__header row aic">
+          <h3 class="prices__mini-name">
+            Як дізнатися чи прийшло замовлення повністю?
+          </h3>
+          <div class="quest__header-arrow">
+            <img src="img/quest__header-arrow.svg" alt="">
+          </div>
+        </div>
+        <div class="quest__dropdown">
+
+        </div>
+      </div>
+
+      <div class="quest__container col">
+        <div class="quest__header row aic">
+          <h3 class="prices__mini-name">
+            Як дізнатися, що замовлення прийшло на склад?
+          </h3>
+          <div class="quest__header-arrow">
+            <img src="img/quest__header-arrow.svg" alt="">
+          </div>
+        </div>
+        <div class="quest__dropdown">
+
+        </div>
+      </div>
+
+      <div class="quest__container col">
+        <div class="quest__header row aic">
+          <h3 class="prices__mini-name">
+            Що таке викуп у компашці?
+          </h3>
+          <div class="quest__header-arrow">
+            <img src="img/quest__header-arrow.svg" alt="">
+          </div>
+        </div>
+        <div class="quest__dropdown">
+
+        </div>
+      </div>
+
+      <div class="quest__container col">
+        <div class="quest__header row aic">
+          <h3 class="prices__mini-name">
+            Як зрозуміти, що замовлення куплено?
+          </h3>
+          <div class="quest__header-arrow">
+            <img src="img/quest__header-arrow.svg" alt="">
+          </div>
+        </div>
+        <div class="quest__dropdown">
+
+        </div>
+      </div>
+
+      <div class="quest__container col">
+        <div class="quest__header row aic">
+          <h3 class="prices__mini-name">
+            Чи можна купити із частковою передоплатою?
+          </h3>
+          <div class="quest__header-arrow">
+            <img src="img/quest__header-arrow.svg" alt="">
+          </div>
+        </div>
+        <div class="quest__dropdown">
+
+        </div>
+      </div>
+
+      <div class="quest__container col">
+        <div class="quest__header row aic">
+          <h3 class="prices__mini-name">
+            Що таке звичайне замовлення?
+          </h3>
+          <div class="quest__header-arrow">
+            <img src="img/quest__header-arrow.svg" alt="">
+          </div>
+        </div>
+        <div class="quest__dropdown">
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="wrapper quest__contaner-wrapper">
+      <h2 class="quest__title h2-title">
+        Доставка з Англії
+      </h2>
+
+      <div class="quest__container col">
+        <div class="quest__header row aic">
+          <h3 class="prices__mini-name">
+            Як часто ви надсилаєте посилки до Росії?
+          </h3>
+          <div class="quest__header-arrow">
+            <img src="img/quest__header-arrow.svg" alt="">
+          </div>
+        </div>
+        <div class="quest__dropdown">
+
+        </div>
+      </div>
+
+      <div class="quest__container col">
+        <div class="quest__header row aic">
+          <h3 class="prices__mini-name">
+            Чи можлива доставка в країни, які не вказані на сайті?
+          </h3>
+          <div class="quest__header-arrow">
+            <img src="img/quest__header-arrow.svg" alt="">
+          </div>
+        </div>
+        <div class="quest__dropdown">
+
+        </div>
+      </div>
+
+      <div class="quest__container col">
+        <div class="quest__header row aic">
+          <h3 class="prices__mini-name">
+            Скільки коштує доставка в Казахстан та інші країни Азії, які терміни?         </h3>
+          </h3>
+          <div class="quest__header-arrow">
+            <img src="img/quest__header-arrow.svg" alt="">
+          </div>
+        </div>
+        <div class="quest__dropdown">
+
+        </div>
+      </div>
+
+      <div class="quest__container col">
+        <div class="quest__header row aic">
+          <h3 class="prices__mini-name">
+            Як найдешевше відправити маленьку посилку до Росії?
+          </h3>
+          <div class="quest__header-arrow">
+            <img src="img/quest__header-arrow.svg" alt="">
+          </div>
+        </div>
+        <div class="quest__dropdown">
+
+        </div>
+      </div>
+
+      <div class="quest__container col">
+        <div class="quest__header row aic">
+          <h3 class="prices__mini-name">
+            Як найдешевше відправити посилку до Росії?
+          </h3>
+          <div class="quest__header-arrow">
+            <img src="img/quest__header-arrow.svg" alt="">
+          </div>
+        </div>
+        <div class="quest__dropdown">
+
+        </div>
+      </div>
+
+      <div class="quest__container col">
+        <div class="quest__header row aic">
+          <h3 class="prices__mini-name">
+            Яка вартість та строки доставки з Англії до Росії?
+          </h3>
+          <div class="quest__header-arrow">
+            <img src="img/quest__header-arrow.svg" alt="">
+          </div>
+        </div>
+        <div class="quest__dropdown">
+
+        </div>
+      </div>
+
+      <div class="quest__container col">
+        <div class="quest__header row aic">
+          <h3 class="prices__mini-name">
+            Що таке звичайне замовлення?
+          </h3>
+          <div class="quest__header-arrow">
+            <img src="img/quest__header-arrow.svg" alt="">
+          </div>
+        </div>
+        <div class="quest__dropdown">
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="wrapper quest__contaner-wrapper">
+      <h2 class="quest__title h2-title">
+        Оплата
+      </h2>
+
+      <div class="quest__container col">
+        <div class="quest__header row aic">
+          <h3 class="prices__mini-name">
+            Де знайти реквізити на оплату? і як сплатити?
+          </h3>
+          <div class="quest__header-arrow">
+            <img src="img/quest__header-arrow.svg" alt="">
+          </div>
+        </div>
+        <div class="quest__dropdown">
+
+        </div>
+      </div>
+
+      <div class="quest__container col">
+        <div class="quest__header row aic">
+          <h3 class="prices__mini-name">
+            Як сплатити через пайпал?
+          </h3>
+          <div class="quest__header-arrow">
+            <img src="img/quest__header-arrow.svg" alt="">
+          </div>
+        </div>
+        <div class="quest__dropdown">
+
+        </div>
+      </div>
+
+      <div class="quest__container col">
+        <div class="quest__header row aic">
+          <h3 class="prices__mini-name">
+            Які засоби оплати ви приймаєте з Росії?
+          </h3>
+          <div class="quest__header-arrow">
+            <img src="img/quest__header-arrow.svg" alt="">
+          </div>
+        </div>
+        <div class="quest__dropdown">
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="wrapper quest__contaner-wrapper">
+      <h2 class="quest__title h2-title">
+        Загальні питання
+      </h2>
+
+      <div class="quest__container col">
+        <div class="quest__header row aic">
+          <h3 class="prices__mini-name">
+            Який ваш Емайл? Як з вами зв'язатися ? Який графік роботи?
+          </h3>
+          <div class="quest__header-arrow">
+            <img src="img/quest__header-arrow.svg" alt="">
+          </div>
+        </div>
+        <div class="quest__dropdown">
+
+        </div>
+      </div>
+
+      <div class="quest__container col">
+        <div class="quest__header row aic">
+          <h3 class="prices__mini-name">
+            Я хочу розділити замовлення на кілька одержувачів, як це зробити і скільки коштує?
+          </h3>
+          <div class="quest__header-arrow">
+            <img src="img/quest__header-arrow.svg" alt="">
+          </div>
+        </div>
+        <div class="quest__dropdown">
+
+        </div>
+      </div>
+
+      <div class="quest__container col">
+        <div class="quest__header row aic">
+          <h3 class="prices__mini-name">
+            Купив на Ebay, продавець не надсилає замовлення, потрібен самовивіз. Скільки коштує та як оформити?
+          </h3>
+          <div class="quest__header-arrow">
+            <img src="img/quest__header-arrow.svg" alt="">
+          </div>
+        </div>
+        <div class="quest__dropdown">
+
+        </div>
+      </div>
+
+      <div class="quest__container col">
+        <div class="quest__header row aic">
+          <h3 class="prices__mini-name">
+            Скільки коштує видалення вішалок та коробок?
+          </h3>
+          <div class="quest__header-arrow">
+            <img src="img/quest__header-arrow.svg" alt="">
+          </div>
+        </div>
+        <div class="quest__dropdown">
+
+        </div>
+      </div>
+
+      <div class="quest__container col">
+        <div class="quest__header row aic">
+          <h3 class="prices__mini-name">
+            Який термін безкоштовного зберігання?
+          </h3>
+          <div class="quest__header-arrow">
+            <img src="img/quest__header-arrow.svg" alt="">
+          </div>
+        </div>
+        <div class="quest__dropdown">
+
+        </div>
+      </div>
+
+      <div class="quest__container col">
+        <div class="quest__header row aic">
+          <h3 class="prices__mini-name">
+            Скільки коштує консолідація?
+          </h3>
+          <div class="quest__header-arrow">
+            <img src="img/quest__header-arrow.svg" alt="">
+          </div>
+        </div>
+        <div class="quest__dropdown">
+
+        </div>
+      </div>
+
+      <div class="quest__container col">
+        <div class="quest__header row aic">
+          <h3 class="prices__mini-name">
+            Як розрахувати вартість послуг та доставки?
+          </h3>
+          <div class="quest__header-arrow">
+            <img src="img/quest__header-arrow.svg" alt="">
+          </div>
+        </div>
+        <div class="quest__dropdown">
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="wrapper quest__contaner-wrapper">
+      <h2 class="quest__title h2-title">
+        Посилання
+      </h2>
+
+      <div class="quest__container col">
+        <div class="quest__header row aic">
+          <h3 class="prices__mini-name">
+            Як відстежити посилку, надіслану поштою Росії?
+          </h3>
+          <div class="quest__header-arrow">
+            <img src="img/quest__header-arrow.svg" alt="">
+          </div>
+        </div>
+        <div class="quest__dropdown">
+
+        </div>
+      </div>
+
+      <div class="quest__container col">
+        <div class="quest__header row aic">
+          <h3 class="prices__mini-name">
+            Де знайти трек номер на надіслану вами посилку?
+          </h3>
+          <div class="quest__header-arrow">
+            <img src="img/quest__header-arrow.svg" alt="">
+          </div>
+        </div>
+        <div class="quest__dropdown">
+
+        </div>
+      </div>
+
+      <div class="quest__container col">
+        <div class="quest__header row aic">
+          <h3 class="prices__mini-name">
+            Що таке адресна книга? Навіщо її заповнювати, якщо адреса є в моєму профайлі?
+          </h3>
+          <div class="quest__header-arrow">
+            <img src="img/quest__header-arrow.svg" alt="">
+          </div>
+        </div>
+        <div class="quest__dropdown">
+
+        </div>
+      </div>
+
+      <div class="quest__container col">
+        <div class="quest__header row aic">
+          <h3 class="prices__mini-name">
+            Як заповнити декларацію, навіщо її заповнювати, якщо ліміт не перевищено?
+          </h3>
+          <div class="quest__header-arrow">
+            <img src="img/quest__header-arrow.svg" alt="">
+          </div>
+        </div>
+        <div class="quest__dropdown">
+
+        </div>
+      </div>
+
+      <div class="quest__container col">
+        <div class="quest__header row aic">
+          <h3 class="prices__mini-name">
+            Як надіслати посилку? Як зробити запит? Скільки це коштує?
+          </h3>
+          <div class="quest__header-arrow">
+            <img src="img/quest__header-arrow.svg" alt="">
+          </div>
+        </div>
+        <div class="quest__dropdown">
+
+        </div>
+      </div>
+
+      <div class="quest__container col">
+        <div class="quest__header row aic">
+          <h3 class="prices__mini-name">
+            Як надіслати кілька замовлень в одній посилці? Скільки це коштує?
+          </h3>
+          <div class="quest__header-arrow">
+            <img src="img/quest__header-arrow.svg" alt="">
+          </div>
+        </div>
+        <div class="quest__dropdown">
+
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="section">
+
+    <div class="stage__end-banner row aic header__container">
+      <div class="wrapper">
+        <div class="stage-banner__wrapper row aic">
+          <h1 class="stage_end__banner-title">
+            Залишились питання? Запитайте нас у соцмережах!
+          </h1>
+          <div class="stage__icon row aic">
+            <a href="#" class="stage__link"><img src="img/whatsapp-icon__white.svg" alt=""></a>
+            <a href="#" class="stage__link"><img src="img/viber-icon__white.svg" alt=""></a>
+            <a href="#" class="stage__link"><img src="img/message-icon__white.svg" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <footer class="footer">
+    <div class="wrapper">
+      <div class="footer__container row">
+
+        <div class="footer__block col">
+          <a href="#" class="logo-link">
+            <img src="img/logo.svg" alt="" class="logo nav__logo">
+          </a>
+          <div class="footer__icon row aic">
+            <a href="#" class="footer__link"><img src="img/whatsapp-icon.svg" alt=""></a>
+            <a href="#" class="footer__link"><img src="img/viber-icon.svg" alt="" ></a>
+            <a href="#" class="footer__link"><img src="img/message-icon.svg" alt=""></a>
+          </div>
+        </div>
+
+        <div class="footer__block col">
+          <h4 class="footer__title">Про компанію</h4>
+          <a href="#" class="footer__text">
+            <p>Послуги</p>
+          </a>
+          <a href="#" class="footer__text">
+            <p>Ціни</p>
+          </a>
+          <a href="#" class="footer__text">
+            <p>Відгуки</p>
+          </a>
+          <a href="#" class="footer__text">
+            <p>Контакти</p>
+          </a>
+          <a href="#" class="footer__text">
+            <p>Ваканції</p>
+          </a>
+          <a href="#" class="footer__text">
+            <p>Угода про персональні дані</p>
+          </a>
+          <a href="#" class="footer__text">
+            <p>Послуги</p>
+          </a>
+        </div>
+
+        <div class="footer__block col">
+          <h4 class="footer__title">Корисне</h4>
+          <a href="#" class="footer__text">
+            <p>Як працює наш сервіс</p>
+          </a>
+          <a href="#" class="footer__text">
+            <p>Як купувати з оператором</p>
+          </a>
+          <a href="#" class="footer__text">
+            <p>Відповіді на часті запитання</p>
+          </a>
+          <a href="#" class="footer__text">
+            <p>Популярні магазини</p>
+          </a>
+          <a href="#" class="footer__text">
+            <p>Чорний список магазинів</p>
+          </a>
+          <a href="#" class="footer__text">
+            <p>Актуальні розпродажі</p>
+          </a>
+        </div>
+
+        <div class="footer__block col">
+          <h4 class="footer__title">Спецпроекти</h4>
+          <a href="#" class="footer__text">
+            <p>50% на першу доставку</p>
+          </a>
+          <a href="#" class="footer__text">
+            <p>Знижки для постійних клієнтів</p>
+          </a>
+          <a href="#" class="footer__text">
+            <p>Реферальна програма</p>
+          </a>
+          <a href="#" class="footer__text">
+            <p>Кешбек Mr. Rebates та Rakuten</p>
+          </a>
+          <a href="#" class="footer__text">
+            <p>Stop Fraud</p>
+          </a>
+        </div>
+
+      </div>
+      <p class="footer__info footer__text">
+        © 2021 Okeypost . Всі права захищені.
+      </p>
+    </div>
+  </footer>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/libs.min.js"></script>
+  
+  <script src="js/app.js"></script>
+
+  <script src="libs/slick/slick.min.js"></script>
+
+</body>
+
+</html>
